@@ -17,4 +17,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     justifyContent: "center",
   },
+  title: {
+    fontSize: 20,
+    fontFamily: "regular",
+  },
 });
