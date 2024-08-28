@@ -1,8 +1,13 @@
 import { Stack } from "expo-router";
 import { AppProvider } from "../hooks";
-export default function layout(){
-    return (<AppProvider>
-        <Stack/>
+
+const StackLayout = () => {
+  return <Stack />;
+};
+export default function Layout() {
+  return (
+    <AppProvider>
+      <StackLayout />
     </AppProvider>
-    );
+  );
 }
